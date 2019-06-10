@@ -10,7 +10,7 @@ echo '
 
 ' > tmp.head
 
-for myFile in $(find . -type f | grep -v tmp.head | grep -v tmp.data | grep -v ready.html | grep -v a.bash | sort)
+for myFile in $(find . -type f | grep -v tmp.head | grep -v tmp.data | grep -v ready.html | grep -v txt2html.chapters.bash | sort)
 do
  echo "processing [${myFile}]"
  myFileD=$(dirname ${myFile}|sed 's/^\.\///')
@@ -23,5 +23,6 @@ do
  echo '</pre>' >> tmp.data
 done
 
+echo '<br/><br/>' >> tmp.head
 echo '</body></html>' >> tmp.data
 cat tmp.head tmp.data > ready.html
