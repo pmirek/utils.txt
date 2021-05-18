@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wpProQuiz><header version="0.37" exportVersion="1"/><data><quiz>
+ <title titleHidden="false"><![CDATA[Linux Basics]]></title>
+ <text><![CDATA[Simple test based on what can be found on the web and some extras.]]></text>
+ <category>quizz</category>
+ <resultText gradeEnabled="false"><![CDATA[That is the end]]></resultText><btnRestartQuizHidden>false</btnRestartQuizHidden>
+ <btnViewQuestionHidden>false</btnViewQuestionHidden>
+ <questionRandom>false</questionRandom>
+ <answerRandom>true</answerRandom>
+ <timeLimit>0</timeLimit>
+ <showPoints>false</showPoints>
+ <statistic activated="false" ipLock="1440"/>
+ <quizRunOnce type="1" cookie="false" time="0">false</quizRunOnce>
+ <numberedAnswer>false</numberedAnswer>
+ <hideAnswerMessageBox>false</hideAnswerMessageBox>
+ <disabledAnswerMark>false</disabledAnswerMark>
+ <showMaxQuestion showMaxQuestionValue="1" showMaxQuestionPercent="false">false</showMaxQuestion>
+ <toplist activated="false">
+  <toplistDataAddPermissions>1</toplistDataAddPermissions>
+  <toplistDataSort>1</toplistDataSort>
+  <toplistDataAddMultiple>false</toplistDataAddMultiple>
+  <toplistDataAddBlock>1</toplistDataAddBlock>
+  <toplistDataShowLimit>1</toplistDataShowLimit>
+  <toplistDataShowIn>0</toplistDataShowIn>
+  <toplistDataCaptcha>false</toplistDataCaptcha>
+  <toplistDataAddAutomatic>false</toplistDataAddAutomatic>
+ </toplist>
+ <showAverageResult>false</showAverageResult>
+ <prerequisite>false</prerequisite>
+ <showReviewQuestion>true</showReviewQuestion>
+ <quizSummaryHide>false</quizSummaryHide>
+ <skipQuestionDisabled>false</skipQuestionDisabled>
+ <emailNotification>0</emailNotification>
+ <userEmailNotification>false</userEmailNotification>
+ <showCategoryScore>false</showCategoryScore>
+ <hideResultCorrectQuestion>false</hideResultCorrectQuestion>
+ <hideResultQuizTime>false</hideResultQuizTime>
+ <hideResultPoints>false</hideResultPoints>
+ <autostart>false</autostart>
+ <forcingQuestionSolve>false</forcingQuestionSolve>
+ <hideQuestionPositionOverview>false</hideQuestionPositionOverview>
+ <hideQuestionNumbering>false</hideQuestionNumbering>
+ <sortCategories>false</sortCategories>
+ <showCategory>false</showCategory>
+ <quizModus questionsPerPage="0">2</quizModus>
+ <startOnlyRegisteredUser>false</startOnlyRegisteredUser>
+ <adminEmail>
+  <to/>
+  <form/>
+  <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+  <html>false</html>
+  <message><![CDATA[Wp-Pro-Quiz: The user "$username" has completed "$quizname" the quiz. Points: $points. Result: $result]]></message>
+ </adminEmail>
+ <userEmail>
+  <to>-1</to>
+  <toUser>false</toUser>
+  <toForm>false</toForm>
+  <form/>
+  <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+  <html>false</html>
+  <message><![CDATA[Wp-Pro-Quiz: You have completed the quiz "$quizname". Points: $points. Result: $result]]></message>
+ </userEmail>
+ <forms activated="false" position="0"/>
+ <questions>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Which one is from outer world]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>hsh</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>csh</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ksh</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>bash</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="multiple">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Which commands are syntactically correct (2 answers)]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>ls -ld a* b*</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ls -l-d a* b*</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>ls -l -d a* b*</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ls -l a* -d b*</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Following commands have been entered one after the other. Indicate which output is generated by the last command.<pre>$ mkdir a<br>$ cd a<br>$ ps > a<br>$ ls > b<br>$ cat b a</pre>]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>Error !</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>PID TTY TIME CMD<br>29362 pts/3 0:00 -ksh<br>92598 pts/3 0:00 ps<br>a<br>b</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>a<br>b<br>PID TTY TIME CMD<br>29362 pts/3 0:00 -ksh<br>92598 pts/3 0:00 ps</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>a<br>PID TTY TIME CMD<br>29362 pts/3 0:00 -ksh<br>92598 pts/3 0:00 ps</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>PID TTY TIME CMD<br>29362 pts/3 0:00 -ksh<br>92598 pts/3 0:00 ps<br>a</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Which are the four navigation keys in "vi"?]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>h - j - k - l</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>l - u - d - r</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>h - u - n - j</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>a - q - s - d</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[In "vi", which key combination has an other effect than the three others?]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>G</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>$G</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>$</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>:$ <enter></pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[I am in "vi" in command mode and I want to see the file list of a directory. For this I use the following command (most efficient solution):]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre><esc> :! ls -l <enter></pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>:!ls +enter+</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>:ls +enter+</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>This is not possible without closing "vi"</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Look at the result below and answer the following three questions.<pre>-rw-r--r-- 2 tb00029 staff 74 Dec 26 16:50 a<br>-rw-r--r-- 1 tb00029 staff 0 Dec 26 16:50 b<br>drwxr-xr-x 2 tb00029 staff 512 Dec 26 16:50 c<br>-rw-r--r-- 2 tb00029 staff 74 Dec 26 16:50 d<br>lrwxrwxrwx 1 tb00029 staff 1 Dec 26 16:51 e -> c<br><pre><br>Which command may have produced these lines?]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>ls -l</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ls -al</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ls -pl</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ls -pe</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="multiple">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Which commands may have created file b? (2 answers)<pre>-rw-r--r-- 1 tb00029 staff 0 Dec 26 16:50 b</pre>]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>>b</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cat < b</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cat | b</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>touch b</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[How has file d been created?<pre>-rw-r--r-- 2 tb00029 staff 74 Dec 26 16:50 a<br>-rw-r--r-- 2 tb00029 staff 74 Dec 26 16:50 d</pre>]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>>d</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>touch d</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cat < d</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cp a d</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>ln a d</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ln -s a d</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Starting from any directory, which command must be entered to return immediately to one's home directory?]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cd . <enter></pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cd - <enter></pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>cd <enter></pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cd HOME <enter></pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[To copy all files starting with "a" into the subdirectory "c", use command:]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>cp a* c</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cp a? c/</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cp a[*] c</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>mv a? /c/a</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>cp a* /c/a</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>mv a* c/</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="multiple">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Which command was entered to change the file permissions of "a" from the first to the second form? (2 answers)<pre>-rw-r--r-- 2 tb00029 staff 74 Dec 26 16:50 a<br>......<br>-rwxrw---x 2 tb00029 staff 74 Dec 26 16:50 a</pre>]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>chmod 761 a</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>chmod 167</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>chmod +124 a</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>chmod ou+x,g+w,o-r a</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>chmod u+x a; chmod o+x;</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>none of the above</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>This is impossible with a single command. One needs a command to remove permissions and one to add permissions back</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Which command may give the following result?<pre>PID TTY TIME CMD<br>35622 pts/0 0:01 -ksh<br>46828 pts/0 0:00 ps<br>Tue Nov 27 14:38:26 NFT 2005<br>Socrates</pre>]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ps#date#hostname</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ps|date|hostname</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ps>date>hostname</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>ps;date;hostname</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>ps/date/hostname</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[For the following situation:<pre>$ls<br>abc abc1 abc11 abc13 abc2 abc3</pre>What will be the output of the following command?<pre>$ls abc[13]</pre>]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>abc1 abc3</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>abc1 abc2 abc3 abc13</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>abc1 abc13 abc3</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>abc1 abc2 abc3</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>abc abc1 abc13 abc3</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Which command permits to know how many connections (result in digits only) are currently being used by user "root"?]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>who|grep root|wc -l</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>who > grep root|wc -l</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>who|grep root>wc -l</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>who|grep >/dev/null|wc -l</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>grep root|who|wc -l</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>wc -l|grep root|who</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>wc -l<grep root<who</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Knowing the following result:<pre>echo $abc<br>Tue Nov 27 14:38:26 NFT 2005</pre>Which command was used to initialise the variable "abc" with bash or Korn shell?]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>set abc=date</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>abc=date</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>abc="date"</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>$abc=$date</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>abc=$(date)</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>abc=exec(date)</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>$abc=(date)</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Give the sequence of key presses and command to enter to run the script named "s" in background, then bring it to foreground, and finally interrupt and kill it.]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>s&<br>ctrl-z<br>fg %1<br>stop %1</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>s&<br>ctrl-z<br>fg %1<br>stop %1<br>kill %1</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>s&<br>fg %1<br>ctrl-z<br>stop %1<br>kill %1</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>s&<br>ctrl-z<br>fg %1<br>kill %1</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>s&<br>fg %1<br>ctrl-z<br>kill %1</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Which command "find" corresponds to the following search? Content of the directory:<pre>-rw-r--r-- 1 tb00029 staff 0 Dec 27 14:48 abc<br>-rw-r--r-- 1 tb00029 staff 0 Dec 27 14:48 abc1<br>-rw-r--r-- 1 tb00029 staff 0 Dec 27 14:48 abc11<br>-rw-r--r-- 1 tb00029 staff 0 Dec 27 14:54 abc13<br>-rw-r--r-- 1 tb00029 staff 0 Dec 27 14:48 abc2<br>-rw-r--r-- 1 tb00029 staff 0 Dec 27 14:49 abc3<br>drwxr-xr-x 2 tb00029 staff 512 Dec 27 16:10 abc4<br>drwxr-xr-x 2 tb00029 staff 512 Dec 27 16:11 abc5</pre>Result of the "find" command:<pre>drwxr-xr-x 2 tb00029 staff 512 Dec 27 16:10 ./abc4<br>drwxr-xr-x 2 tb00029 staff 512 Dec 27 16:11 ./abc5</pre>]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>find . -name "abc[345]" -type d</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>find . -name "abc[345]" -type d | ls -l</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>find . -name 'abc[345]' -type d -exec ls -ld {} \;</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>find . -name -type d -exec ls -ld {} ";"</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>find . -name abc\[345\] -type d -exec ls -l {} \;</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[Which command permits root to select from the file of users? Make use of the following file content.<pre>]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>grep '/ksh' /etc/passwd ; grep '/csh' /etc/passwd</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>grep '/ksh' /etc/passwd | grep '/csh'</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="true">
+     <answerText html="true"><![CDATA[<pre>grep '/[kc]sh$' /etc/passwd</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>grep '/(k|c)sh' /etc/passwd</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>grep '[kc]sh^' /etc/passwd</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+  <question answerType="single">
+   <title><![CDATA[Question]]></title>
+   <points>1</points>
+   <questionText><![CDATA[What is the meaning of the following result?<pre>echo $?<br>1</pre]]></questionText>
+   <correctMsg><![CDATA[Correct]]></correctMsg>
+   <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+   <tipMsg enabled="false"><![CDATA[hint]]></tipMsg>
+   <category/>
+   <correctSameText>false</correctSameText>
+   <showPointsInBox>false</showPointsInBox>
+   <answerPointsActivated>false</answerPointsActivated>
+   <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+   <disableCorrect>false</disableCorrect>
+   <answers>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>The variable $? has been initialized to 1 by a preceding command ($?=1).</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>The command preceding the "echo" command ran without errors.</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>The command preceding the "echo" command did not function correctly.</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    <answer points="1" correct="false">
+     <answerText html="true"><![CDATA[<pre>The command preceding the "echo" command received one single parameter.</pre>]]></answerText>
+     <stortText html="false"></stortText>
+    </answer>
+    </answers>
+   </question>
+ </questions>
+</quiz></data></wpProQuiz>

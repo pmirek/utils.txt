@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wpProQuiz>
+  <header version="0.37" exportVersion="1"/>
+  <data>
+    <quiz>
+      <title titleHidden="false"><![CDATA[Test quiz]]></title>
+      <text><![CDATA[Sample quiz line 1<br>Sample quiz line 2]]></text>
+      <category>quizz</category>
+      <resultText gradeEnabled="false"><![CDATA[Sample results line 1<br>Sample results line 2]]></resultText>
+      <btnRestartQuizHidden>false</btnRestartQuizHidden>
+      <btnViewQuestionHidden>false</btnViewQuestionHidden>
+      <questionRandom>false</questionRandom>
+      <answerRandom>true</answerRandom>
+      <timeLimit>0</timeLimit>
+      <showPoints>false</showPoints>
+      <statistic activated="false" ipLock="1440"/>
+      <quizRunOnce type="1" cookie="false" time="0">false</quizRunOnce>
+      <numberedAnswer>false</numberedAnswer>
+      <hideAnswerMessageBox>false</hideAnswerMessageBox>
+      <disabledAnswerMark>false</disabledAnswerMark>
+      <showMaxQuestion showMaxQuestionValue="1" showMaxQuestionPercent="false">false</showMaxQuestion>
+      <toplist activated="false">
+        <toplistDataAddPermissions>1</toplistDataAddPermissions>
+        <toplistDataSort>1</toplistDataSort>
+        <toplistDataAddMultiple>false</toplistDataAddMultiple>
+        <toplistDataAddBlock>1</toplistDataAddBlock>
+        <toplistDataShowLimit>1</toplistDataShowLimit>
+        <toplistDataShowIn>0</toplistDataShowIn>
+        <toplistDataCaptcha>false</toplistDataCaptcha>
+        <toplistDataAddAutomatic>false</toplistDataAddAutomatic>
+      </toplist>
+      <showAverageResult>false</showAverageResult>
+      <prerequisite>false</prerequisite>
+      <showReviewQuestion>true</showReviewQuestion>
+      <quizSummaryHide>false</quizSummaryHide>
+      <skipQuestionDisabled>false</skipQuestionDisabled>
+      <emailNotification>0</emailNotification>
+      <userEmailNotification>true</userEmailNotification>
+      <showCategoryScore>false</showCategoryScore>
+      <hideResultCorrectQuestion>false</hideResultCorrectQuestion>
+      <hideResultQuizTime>false</hideResultQuizTime>
+      <hideResultPoints>false</hideResultPoints>
+      <autostart>false</autostart>
+      <forcingQuestionSolve>false</forcingQuestionSolve>
+      <hideQuestionPositionOverview>false</hideQuestionPositionOverview>
+      <hideQuestionNumbering>false</hideQuestionNumbering>
+      <sortCategories>false</sortCategories>
+      <showCategory>false</showCategory>
+      <quizModus questionsPerPage="0">2</quizModus>
+      <startOnlyRegisteredUser>false</startOnlyRegisteredUser>
+      <adminEmail>
+        <to/>
+        <form/>
+        <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+        <html>false</html>
+        <message><![CDATA[Wp-Pro-Quiz: The user "$username" has completed "$quizname" the quiz. Points: $points. Result: $result]]></message>
+      </adminEmail>
+      <userEmail>
+        <to>-1</to>
+        <toUser>false</toUser>
+        <toForm>false</toForm>
+        <form/>
+        <subject>Wp-Pro-Quiz: One user completed a quiz</subject>
+        <html>false</html>
+        <message><![CDATA[Wp-Pro-Quiz: You have completed the quiz "$quizname". Points: $points. Result: $result]]></message>
+      </userEmail>
+      <forms activated="false" position="0"/>
+      <questions>
+        <question answerType="single">
+          <title><![CDATA[simple question 1]]></title>
+          <points>1</points>
+          <questionText><![CDATA[sample question line 1<br>sample question line 1]]></questionText>
+          <correctMsg><![CDATA[Correct]]></correctMsg>
+          <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+          <tipMsg enabled="false"><![CDATA[Simple hint]]></tipMsg>
+          <category/>
+          <correctSameText>false</correctSameText>
+          <showPointsInBox>false</showPointsInBox>
+          <answerPointsActivated>false</answerPointsActivated>
+          <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+          <disableCorrect>false</disableCorrect>
+          <answers>
+            <answer points="1" correct="true">
+              <answerText html="true"><![CDATA[correct answer line 1<br>correct answer line 1]]></answerText>
+              <stortText html="false"></stortText>
+            </answer>
+            <answer points="1" correct="false">
+              <answerText html="true"><![CDATA[wrong answer 1 line 1<br>wrong answer 1 line 2]]></answerText>
+              <stortText html="false"></stortText>
+            </answer>
+            <answer points="1" correct="false">
+              <answerText html="true"><![CDATA[wrong answer 2]]></answerText>
+              <stortText html="false"></stortText>
+            </answer>
+            <answer points="1" correct="false">
+              <answerText html="true"><![CDATA[wrong answer 3]]></answerText>
+              <stortText html="false"></stortText>
+            </answer>
+          </answers>
+        </question>
+        <question answerType="single">
+          <title><![CDATA[simple question 2]]></title>
+          <points>1</points>
+          <questionText><![CDATA[example question<br>line 2]]></questionText>
+          <correctMsg><![CDATA[Correct]]></correctMsg>
+          <incorrectMsg><![CDATA[Wrong]]></incorrectMsg>
+          <tipMsg enabled="false"><![CDATA[Simple hint]]></tipMsg>
+          <category/>
+          <correctSameText>false</correctSameText>
+          <showPointsInBox>false</showPointsInBox>
+          <answerPointsActivated>false</answerPointsActivated>
+          <answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
+          <disableCorrect>false</disableCorrect>
+          <answers>
+            <answer points="1" correct="true">
+              <answerText html="false"><![CDATA[correct answer]]></answerText>
+              <stortText html="false"></stortText>
+            </answer>
+            <answer points="1" correct="false">
+              <answerText html="false"><![CDATA[wrong answer 1]]></answerText>
+              <stortText html="false"></stortText>
+            </answer>
+            <answer points="1" correct="false">
+              <answerText html="false"><![CDATA[wrong answer 2]]></answerText>
+              <stortText html="false"></stortText>
+            </answer>
+            <answer points="1" correct="false">
+              <answerText html="false"><![CDATA[wrong answer 3]]></answerText>
+              <stortText html="false"></stortText>
+            </answer>
+          </answers>
+        </question>
+      </questions>
+    </quiz>
+  </data>
+</wpProQuiz>
